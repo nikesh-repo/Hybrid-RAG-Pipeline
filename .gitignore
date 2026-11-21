@@ -1,0 +1,17 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environment & cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+docs/
+
+# Local vector store & generated runtime artifacts (optional: keep if you want a clean repo)
+chroma_db/
+chunks.json
